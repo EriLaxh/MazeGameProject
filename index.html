@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="js/username.js"></script>
+    <script src="js/maze.js"></script>
+    <script src="js/gameplay.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/audio.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+    <!-- Username Display -->
+    <div id="usernameDisplay" style="position: absolute; top: 10px; left: 20px; color: white; font-size: 16px; z-index: 1100;">Welcome, Player!</div>
+    <div id="instructions">
+        Use Arrow Keys or Buttons to Move: <b>Up</b>, <b>Down</b>, <b>Left</b>, <b>Right</b>. Press <b>Enter</b> or <b>Execute Button</b>.
+        <br>
+        <i><b>1 Command</b> == <b>Ball Move 1 Square</b></i>.
+        <br>
+        <span style="color: yellow; font-weight: bold;">Please enable audio permission if cannot hear the music.</span>
+    </div>
+    <div id="mazeContainer" style="position: relative; width: 100vw; height: 100vh;">
+        <div id="moveCounter">Moves: 0</div>
+        <div id="queueDisplay"></div>
+    </div>
+    <div id="transition-overlay"></div>
+</body>
+</html>
