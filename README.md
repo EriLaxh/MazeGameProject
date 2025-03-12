@@ -79,9 +79,6 @@ MazeGameProject/
 │
 └── index.html               # Main entry point of the game
 
-Audio Credits
-Background Music: Lucky Wheel · Aideen Park (Extended) - Honkai: Star Rail 2.0 OST.
-
 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the project as needed:
 - The Three.js library is used under the MIT License.
