@@ -1,5 +1,8 @@
 Maze Game
 
+Sample Gameplay Demo:
+https://youtu.be/7ed_Dni9zV4
+
 Introduction
 Maze Game is designed to help preschool children learn directions while enjoying the challenge of navigating colourful mazes. Inspired by the Pathfinder puzzles from Honkai: Star Rail and built on the Astray library (Astray on GitHub), this project provides an interactive and engaging learning experience.
 
