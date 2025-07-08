@@ -1,101 +1,54 @@
-Maze Game
+# Maze Game
 
-Link to game: https://erilaxh.github.io/MazeGameProject/
+**Link to game:** [https://erilaxh.github.io/MazeGameProject/](https://erilaxh.github.io/MazeGameProject/)
+**Sample Gameplay Demo:** [https://youtu.be/7ed_Dni9zV4](https://youtu.be/7ed_Dni9zV4)
 
-Sample Gameplay Demo:
-https://youtu.be/7ed_Dni9zV4
+## Introduction
 
-Introduction
-Maze Game is designed to help preschool children learn directions while enjoying the challenge of navigating colourful mazes. Inspired by the Pathfinder puzzles from Honkai: Star Rail and built on the Astray library (Astray on GitHub), this project provides an interactive and engaging learning experience.
+Maze Game is designed to help preschool children learn directions while enjoying the challenge of navigating colourful mazes. Inspired by the Pathfinder puzzles from Honkai: Star Rail and built on the Astray library, this project provides an interactive and engaging learning experience.
 
-Features
-Interactive Gameplay: Navigate through a series of mazes using predefined moves and logical planning.
-Colourful Themes: Vibrant textures and child-friendly designs.
-Audio Integration: Background music and sound effects enhance engagement.
-Dynamic Scoring: Tracks player progress through a move counter.
-Customisation: Enter your username for a personalised experience.
+## Features
 
-How to Run Locally
+* **Interactive Gameplay:** Navigate through a series of mazes using predefined moves and logical planning.
+* **Colourful Themes:** Vibrant textures and child-friendly designs.
+* **Audio Integration:** Background music and sound effects enhance engagement.
+* **Dynamic Scoring:** Tracks player progress through a move counter.
+* **Customisation:** Enter your username for a personalised experience.
 
-Option 1: Using Visual Studio Code and Live Server
+## Key Technologies
 
-Download and Install:
-Clone the repository or download the project files as a .zip.
+* HTML, CSS, JavaScript
+* Three.js (for 3D rendering)
+* Astray Library (for maze generation inspiration)
 
-Install VS Code:
-If not already installed, download and install Visual Studio Code. (https://code.visualstudio.com/)
+## My Role
 
-Setup Live Server:
-Install the Live Server extension in VS Code:
-Open VS Code.
-Go to Extensions (Ctrl + Shift + X).
-Search for "Live Server" and click Install.
-Extract the downloaded files and open the folder in VS Code.
+**Sole Developer**: I designed, developed, and implemented every aspect of this project. My responsibilities included:
 
-Launch Live Server:
-Right-click on index.html in VS Code.
-Select Open with Live Server.
+* Concept & Design: Brainstorming game concept, deciding on the theme, user experience (UX) flows, and user interface (UI) elements.
+* Game Development: Implementing core gameplay mechanics, maze generation logic, and integrating the Three.js 3D rendering environment.
+* Front-End Implementation: Developing the interactive elements, handling user input (keyboard), and managing dynamic scoring.
+* Asset Integration: Sourcing and integrating all audio files (background music and sound effects), background images, and 3D textures.
+* Technical Architecture: Structuring the codebase and managing project dependencies.
 
-Play the Game:
-The game will open in your default browser.
-Note: Please enable audio permissions if the background music is not audible.
+## For Developers: Running Locally
 
-Option 2: Using XAMPP Localhost
+For detailed instructions on running this project locally, please refer to the [Local Setup Guide](LocalSetup.md).
 
-Install XAMPP:
-Download and install XAMPP.
+## License
 
-Set Up Project in XAMPP:
-Extract the downloaded project files.
-Move the project folder to the htdocs directory in the XAMPP installation folder (e.g., C:/xampp/htdocs/MazeGameProject).
+This project is licensed under the MIT License. You are free to use, modify, and distribute the project as needed.
 
-Start XAMPP:
-Open the XAMPP Control Panel.
-Start the Apache server.
-
-Access the Game:
-Open a browser and go to http://localhost/MazeGameProject/index.html.
-
-Play the Game:
-The game will load in your browser.
-Note: Please enable audio permissions if the background music is not audible.
-
-Directory Structure
-MazeGameProject/
-│
-├── assets/
-│   ├── audio/               # Audio files (background music and sound effects)
-│   ├── bg/                  # Background images
-│   ├── textures/            # Textures for the ball, walls, and floors
-│
-├── css/
-│   └── styles.css           # Game styles
-│
-├── js/
-│   ├── audio.js             # Handles background music and sound effects
-│   ├── gameplay.js          # Core gameplay mechanics
-│   ├── keyboard.js          # Keyboard input handling
-│   ├── maze.js              # Maze generation and rendering logic
-│   └── username.js          # Handles username input and display
-│
-├── libs/
-│   ├── Box2dWeb.min.js      # Physics engine for additional effects
-│   └── jquery.js            # jQuery library for UI interactions
-│
-└── index.html               # Main entry point of the game
-
-License
-This project is licensed under the MIT License. You are free to use, modify, and distribute the project as needed:
-- The Three.js library is used under the MIT License.
-- Textures and sound effects are sourced from royalty-free platforms or appropriately licensed.
+* The Three.js library is used under the MIT License.
+* Textures and sound effects are sourced from royalty-free platforms or appropriately licensed.
 
 ## Disclaimer
+
 The Maze Game is a project developed for educational purposes as part of a final-year academic submission.
 
+## Acknowledgements
 
-
-Acknowledgements
-Astray Library: For maze-generation inspiration (Astray on GitHub).
-Three.js: For 3D rendering capabilities.
-Canvas Confetti Library: For celebratory animations.
-Open-Source Communities: For sharing resources like textures and sound effects.
+* Astray Library: For maze-generation inspiration (Astray on GitHub).
+* Three.js: For 3D rendering capabilities.
+* Canvas Confetti Library: For celebratory animations.
+* Open-Source Communities: For sharing resources like textures and sound effects.
