@@ -1,5 +1,7 @@
 Maze Game
 
+Link to game: https://erilaxh.github.io/MazeGameProject/
+
 Sample Gameplay Demo:
 https://youtu.be/7ed_Dni9zV4
 
@@ -13,7 +15,7 @@ Audio Integration: Background music and sound effects enhance engagement.
 Dynamic Scoring: Tracks player progress through a move counter.
 Customisation: Enter your username for a personalised experience.
 
-How to Run
+How to Run Locally
 
 Option 1: Using Visual Studio Code and Live Server
 
