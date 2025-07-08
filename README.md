@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Maze Game is designed to help preschool children learn directions while enjoying the challenge of navigating colourful mazes. Inspired by the Pathfinder puzzles from Honkai: Star Rail and built on the Astray library, this project provides an interactive and engaging learning experience.
+Maze Game is designed to help preschool children learn directions while enjoying the challenge of navigating colourful mazes. Inspired by the Pathfinder puzzles from Honkai: Star Rail, this project provides an interactive and engaging learning experience.
 
 ## Features
 
