@@ -3,7 +3,7 @@ let backgroundMusic;
 
 function playBackgroundMusic() {
     // Create an audio object
-    backgroundMusic = new Audio('assets/audio/LuckyWheelAideenPark.mp3'); // Path to your audio file
+    backgroundMusic = new Audio('assets/audio/carnivalBGM.mp3'); // Path to your audio file
     backgroundMusic.loop = true; // Enable looping
     backgroundMusic.volume = 0.5; // Set initial volume (adjust as needed)
     backgroundMusic.play();
