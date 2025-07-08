@@ -19,7 +19,6 @@ Maze Game is designed to help preschool children learn directions while enjoying
 
 * HTML, CSS, JavaScript
 * Three.js (for 3D rendering)
-* Astray Library (for maze generation inspiration)
 
 ## My Role
 
