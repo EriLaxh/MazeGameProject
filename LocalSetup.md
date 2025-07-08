@@ -29,6 +29,7 @@ This guide provides instructions on how to set up and run the Maze Game project 
     * **Note:** Please enable audio permissions if the background music is not audible.
 
 ## Directory Structure
+``` 
 MazeGameProject/
 │
 ├── assets/
@@ -50,4 +51,5 @@ MazeGameProject/
 │   ├── Box2dWeb.min.js      # Physics engine for additional effects
 │   └── jquery.js            # jQuery library for UI interactions
 │
-└── index.html               # Main entry point of the game
+└── index.html               # Main entry point of the game 
+```
