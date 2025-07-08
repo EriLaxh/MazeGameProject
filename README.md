@@ -1,6 +1,7 @@
 # Maze Game
 
 **Link to game:** [https://erilaxh.github.io/MazeGameProject/](https://erilaxh.github.io/MazeGameProject/)
+
 **Sample Gameplay Demo:** [https://youtu.be/7ed_Dni9zV4](https://youtu.be/7ed_Dni9zV4)
 
 ## Introduction
